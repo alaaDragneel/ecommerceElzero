@@ -1,0 +1,13 @@
+1-use $noNavbar to make the pages have the navbar excepte that the one that have the $noNavbar
+
+2- the redirect function is used when error happend direct the user by dynamic way it use parameters [$errorMsg => used to set the error in it, $seconds => used to put the number of seconds that wil need before directing the defult value is -> 3 seconds]
+
+3- check item function use the parameter to make a dynamic select to the data
+
+4- count items it is function use to can count the rows in the tables and it use 2 parameter [ $item => use item to count about it, $table => the required table to count from ] 
+
+5- getLatest it is function accept parametr to can get the last latest item like (users | items | comments) the paramerter is
+   [ $select => the selected field
+	 $table => the table to choose from
+	 $order => the order way of the data
+	 $limit =>  the limit of the select defult = 5 ]
